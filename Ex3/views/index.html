@@ -1,0 +1,62 @@
+<!-- @nanajjar -->
+
+<html>
+
+<head>
+    <title>Student Info Page</title>
+    <link href="/resources/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+
+        <h1> Welcome to the course application! </h1>
+
+        <p>
+            <form  action="coursedetails" method="GET">
+                <table>
+                    <tr>
+                        <td>
+                            <label>Course code:</label></td>
+                        <td>
+                            <input type="text" name="code" size="40" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Title:</label></td>
+                        <td>
+                            <input type="text" name="title" size="40" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Term:</label></td>
+                        <td>
+                            <input type="text" name="term" size="40" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Instructor:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="instructor" size="40" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Show Details" />
+                            <!-- <button type="submit" formaction="/coursedetails" class="btn btn-blue" name=course value="listDetails">Show Details</button>
+                            <button type="submit" formaction="/coursedetails" class="btn btn-blue" name=course value="listDetails2">Show Details</button> -->
+
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </p>
+    </div>
+
+</body>
+
+</html>
